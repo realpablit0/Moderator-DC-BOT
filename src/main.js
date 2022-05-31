@@ -3,7 +3,7 @@ const { SlasherClient } = require("discord.js-slasher");
 
 /*========== event handle imports ==========*/
 // command handlers
-const moderatorInfo = require('./commandHandle/moderator-info')
+const moderatorInfo = require('./commandHandle/moderator-info.command')
 
 const client = new SlasherClient({ useAuth: true });
 
