@@ -1,0 +1,4 @@
+/.env
+# Bot Authorisation File
+/auth.json
+/node_modules

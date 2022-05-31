@@ -1,0 +1,6 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Romejanic/slasher/master/schema.json",
+    "moderator-info": {
+        "description": "all moderation commands listed"
+    }
+}
