@@ -2,5 +2,20 @@
     "$schema": "https://raw.githubusercontent.com/Romejanic/slasher/master/schema.json",
     "moderator-info": {
         "description": "all moderation commands listed"
+    },
+    "clear": {
+        "description": "clear messages in current channel",
+        "options": {
+            "amount": {
+                "required": false,
+                "type": "number",
+                "description": "amount of messages to be cleared"
+            },
+            "user": {
+                "required": false,
+                "type": "user",
+                "description": "clear all messages by a specific user"
+            }
+        }
     }
 }

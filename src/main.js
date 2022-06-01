@@ -11,7 +11,6 @@ var commandPermissions;
 
 const getPermissionDict = (guild) => {
     const roles = guild.roles.cache.map(role => role)
-    console.log(roles);
     return {
         'moderator-info': {
             'function': moderatorInfo,
